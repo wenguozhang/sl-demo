@@ -87,7 +87,6 @@ public class BillDemo {
     		String strDes = responseJson.getString("strDes");
     		String signMsg = responseJson.getString("signMsg");
     		System.out.println(strDes);
-    		
     		JSONObject result = FrontCrypt.decryptWithKey(strDes, signMsg, pubCer, strKey, "");
     		System.out.println("结果明文：\n"+result.toString());
     		// TODO 解析返回报文，做后续业务处理
