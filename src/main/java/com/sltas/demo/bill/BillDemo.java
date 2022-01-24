@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
+import cn.sinojy.front.util.FrontCrypt;
+import cn.sinojy.front.util.HttpSender;
 import net.sf.json.JSONObject;
 
 public class BillDemo {

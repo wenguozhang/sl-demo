@@ -29,16 +29,16 @@ public class OrderSupplementReqDTO extends ExchangeRequestBasePOJO{
          */
         OrderSupplementReqDTO orderSupplementReqDTO = new OrderSupplementReqDTO();
         orderSupplementReqDTO.setTxType("01");
-        orderSupplementReqDTO.setUserCode("mbank04");
+        orderSupplementReqDTO.setUserCode("2017020832");
         orderSupplementReqDTO.setDeviceInfo("159773545633519");
         orderSupplementReqDTO.setThirdUserId("1234");
         orderSupplementReqDTO.setItemId("804");
-        orderSupplementReqDTO.setMerchantorderId("202111081607221234");
-        orderSupplementReqDTO.setOrderFee("200");
-        orderSupplementReqDTO.setPayFee("200");
+        orderSupplementReqDTO.setMerchantorderId("2021092616095846224462");
+        orderSupplementReqDTO.setOrderFee("5.00");
+        orderSupplementReqDTO.setPayFee("5.00");
         orderSupplementReqDTO.setMergeFee("0");
         orderSupplementReqDTO.setMerchantFee("0");
-        orderSupplementReqDTO.setTransFee("200");
+        orderSupplementReqDTO.setTransFee("0");
         orderSupplementReqDTO.setOtherFee("0");
         orderSupplementReqDTO.setMyFee("0");
         orderSupplementReqDTO.setBankfee("0");
@@ -46,7 +46,7 @@ public class OrderSupplementReqDTO extends ExchangeRequestBasePOJO{
         orderSupplementReqDTO.setPaydate("2021-11-07");
         orderSupplementReqDTO.setAccountDate("2021-11-07");
         orderSupplementReqDTO.setPaytime("2021-11-07 17:42:38");
-        orderSupplementReqDTO.setReserved("");
+        orderSupplementReqDTO.setReserved(null);
         
         /*
          * 签名及封装请求技术数据

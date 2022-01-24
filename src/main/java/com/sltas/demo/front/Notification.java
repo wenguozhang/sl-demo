@@ -11,11 +11,11 @@ import com.sltas.demo.utils.EasyHttp;
 public class Notification {
 	public static void main(String[] args) {
 		//cycleNum为循环次数，每次循环最多重发200条
-		int cycleNum = 253;
+		int cycleNum = 1;
 		for(int i=0; i< cycleNum; i++) {
 			System.out.println("-----------------"+i);
 //			String url = "http://10.10.4.81:9101/systemRefresh/list/notification/112551/standard/synBill/E";
-			String url = "https://front.mp.sinojy.cn/systemRefresh/list/notification/112462/standard/synBill/O"; 
+			String url = "https://front.mp.sinojy.cn/systemRefresh/list/notification/112906/standard/synBill/O"; 
 //			String url = "http://frontzw.zeevor.com/systemRefresh/list/notification/112555/standard/synBill/F";
 			System.out.println(EasyHttp.post(url,null));
 //			try {
